@@ -38,7 +38,7 @@ export default function App() {
     <div style={{ height: '100vh', background: '#000', color: 'white', display: 'flex', flexDirection: 'column' }}>
       
       <div style={{ padding: '20px', background: '#222', textAlign: 'center' }}>
-        <h3>AR Viewer (Auto-Fit)</h3>
+        <h3>AR Viewer</h3>
         <input 
           type="file" 
           accept=".glb,.gltf" 
