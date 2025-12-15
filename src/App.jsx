@@ -32,7 +32,7 @@ export default function App() {
       formData.append('file', file);
 
       // Call your FastAPI endpoint
-      const response = await fetch('http://127.0.0.1:8080/convert', {
+      const response = await fetch('http://217.171.200.22:51754/convert', {
         method: 'POST',
         body: formData,
       });
