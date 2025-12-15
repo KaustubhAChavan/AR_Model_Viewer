@@ -6,7 +6,6 @@ import basicSsl from '@vitejs/plugin-basic-ssl'
 export default defineConfig({
   plugins: [react(), basicSsl()],
   server: {
-    host: true, // Exposes IP to network
-    https: true // Enables HTTPS
+    host: true
   }
 })
