@@ -32,7 +32,7 @@ export default function App() {
       formData.append('file', file);
 
       // Call your FastAPI endpoint
-      const response = await fetch('https://unovert-unengaged-edwardo.ngrok-free.dev/convert', {
+      const response = await fetch('https://excavate-persecute-punctuate.ngrok-free.dev/convert', {
         method: 'POST',
         body: formData,
       });
